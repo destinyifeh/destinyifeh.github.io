@@ -131,7 +131,7 @@ let handleInterest = (e) =>{
                         <p className="profile-text mb-5">I'm a web developer with ability to learn and collaborate in rapidly changing environments and compositions. </p>
                           <p className=""><i className="fa fa-phone"></i> <span className="pro-detail ">+2349033662731</span></p>
                           <p className=""><i className="fa fa-envelope-open"></i> <span className="pro-detail ">destinyifeh@gmail.com</span></p>
-                          <p className="mb-5"><i className="fa fa-home"></i> <span className="pro-detail ">IKORODU, LAGOS STATE.</span></p>
+                          <p className="mb-5"><i className="fa fa-home"></i> <span className="pro-detail ">LAGOS, NIGERIA.</span></p>
 
                            <div className="mb-5">
                               <a className="mx-2" href="https://www.linkedin.com/in/destiny-ifehor-99686a15b" target="_blank" rel="noreferrer noopener"> <i className="fa fa-linkedin"></i></a>
