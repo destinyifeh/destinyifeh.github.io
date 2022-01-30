@@ -1,6 +1,11 @@
 import React, {useState} from 'react';
 //import {Link} from 'react-router-dom';
 import profile from './images/pics/dee.jpg';
+import dis1 from './images/pics/dis1.jpg';
+import dis2 from './images/pics/dis2.jpg';
+import b1 from './images/pics/b1.jpg';
+import b2 from './images/pics/b2.jpg';
+
 
 function Home(){
                
@@ -150,13 +155,33 @@ let handleInterest = (e) =>{
                             <p className=""><span className="dots">.</span> Implemented user log in, sign up, log out, profile picture, authentication, email verification,  password reset email and contact form.</p>
                              <p className=""><span className="dots">.</span> Allow users to create post, edit, update and delete post </p>
                              <p className=""><span className="dots">.</span> Designed and integrated database using mongoDB</p>
-                                <p><a className="view-site" href="https://discussionz.herokuapp.com">view site </a></p>
+                               
+                               <div className="card-group">
+                                  <div className="card m-1">
+                                     <img className="img-card-top" src={dis1} alt=""/>
+                                  </div>
+                                  <div className="card m-1">
+                                     <img className="img-card-top" src={dis2} alt=""/>
+                                  </div>
+                                 
+                               </div>
+                                <p className="p-2"><a className="view-site" href="https://discussionz.herokuapp.com">view site </a></p>
 
                              <h3 className=""> <span className="sub-title  ">Basicoffer</span> - Creator</h3>
                               <p className=" "><span className="dots">.</span> Designed a cryptocurrency blog/website for cryptocurrency updates using Html5, Css3, Javascript, Bootstrap, Handlebars.JS, and Node.JS .</p>
                               <p className=" "><span className="dots">.</span> Designed and integrated admin dashboard, admin log in , log out, sign up, email verification, reset password. </p>
                               <p className=" "><span className="dots">.</span> Designed and integrated database using mongoDB</p>
-                              <p><a className="view-site" href="https://basicoffer.herokuapp.com">view site </a></p>
+                             
+                              <div className="card-group">
+                                  <div className="card m-1">
+                                     <img className="img-card-top" src={b1} alt=""/>
+                                  </div>
+                                  <div className="card m-1">
+                                     <img className="img-card-top" src={b2} alt=""/>
+                                  </div>
+                                 
+                               </div>
+                              <p className="p-2"><a className="view-site" href="https://basicoffer.herokuapp.com">view site </a></p>
 
                       
                        </div>
@@ -178,6 +203,9 @@ let handleInterest = (e) =>{
                        <div className="container skill my-5" id="skills">
                        <h2 className="profile-title mb-5">SKILLS</h2>
                        <h3 className="sub-title mb-3">Programming Languages And Tools</h3>
+
+                       <div className="d-flex justify-content-even d-none d-md-flex">
+
                        <i className="devicon-html5-plain-wordmark colored"></i>
                        <i className="devicon-css3-plain-wordmark colored"></i>
 
@@ -194,6 +222,37 @@ let handleInterest = (e) =>{
 
 
                        </div>
+
+                       {/* For small screen mobile*/}
+
+                       <div className="d-flex justify-content-even d-flex d-md-none">
+                          
+                          <i className="devicon-html5-plain-wordmark colored"></i>
+                          <i className="devicon-css3-plain-wordmark colored"></i>
+   
+                          <i className="devicon-bootstrap-plain-wordmark colored"></i>
+   
+                          <i className="devicon-javascript-plain colored"></i>
+                          <i className="devicon-react-original-wordmark colored"></i>
+
+                          </div>
+
+                          <div className="d-flex justify-content-even d-flex d-md-none">
+                          
+                          <i className="devicon-handlebars-plain-wordmark colored"></i>
+
+                              <i className="devicon-mongodb-plain-wordmark colored"></i>
+                               <i className="devicon-nodejs-plain-wordmark colored"></i>
+                             <i className="devicon-npm-original-wordmark colored"></i>
+                                <i className="devicon-git-plain-wordmark colored"></i>
+
+
+                          </div>
+                          
+                     
+                       </div>
+
+                       
 
                        <div className="container interest my-5" id="interests">
                        <h2 className="profile-title mb-5">INTERESTS</h2>
