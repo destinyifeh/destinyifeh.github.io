@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.140fee12.chunk.css",
-    "main.js": "/static/js/main.c4117e42.chunk.js",
-    "main.js.map": "/static/js/main.c4117e42.chunk.js.map",
+    "main.js": "/static/js/main.e391cde9.chunk.js",
+    "main.js.map": "/static/js/main.e391cde9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.776c1e0d.js",
     "runtime-main.js.map": "/static/js/runtime-main.776c1e0d.js.map",
     "static/css/2.dd592c80.chunk.css": "/static/css/2.dd592c80.chunk.css",
@@ -12,7 +12,11 @@
     "static/css/2.dd592c80.chunk.css.map": "/static/css/2.dd592c80.chunk.css.map",
     "static/css/main.140fee12.chunk.css.map": "/static/css/main.140fee12.chunk.css.map",
     "static/js/2.65c48833.chunk.js.LICENSE.txt": "/static/js/2.65c48833.chunk.js.LICENSE.txt",
+    "static/media/b1.e965d0f2.jpg": "/static/media/b1.e965d0f2.jpg",
+    "static/media/b2.e848c966.jpg": "/static/media/b2.e848c966.jpg",
     "static/media/dee.143ab1c5.jpg": "/static/media/dee.143ab1c5.jpg",
+    "static/media/dis1.914e041f.jpg": "/static/media/dis1.914e041f.jpg",
+    "static/media/dis2.95dfc70b.jpg": "/static/media/dis2.95dfc70b.jpg",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/index.css": "/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
   },
@@ -21,6 +25,6 @@
     "static/css/2.dd592c80.chunk.css",
     "static/js/2.65c48833.chunk.js",
     "static/css/main.140fee12.chunk.css",
-    "static/js/main.c4117e42.chunk.js"
+    "static/js/main.e391cde9.chunk.js"
   ]
 }
