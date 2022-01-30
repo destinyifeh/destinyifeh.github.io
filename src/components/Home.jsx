@@ -138,7 +138,7 @@ let handleInterest = (e) =>{
                           <p className=""><i className="fa fa-envelope-open"></i> <span className="pro-detail ">destinyifeh@gmail.com</span></p>
                           <p className="mb-5"><i className="fa fa-home"></i> <span className="pro-detail ">LAGOS, NIGERIA.</span></p>
 
-                           <div className="mb-5">
+                           <div className="mb-5 social">
                               <a className="mx-2" href="https://www.linkedin.com/in/destiny-ifehor-99686a15b" target="_blank" rel="noreferrer noopener"> <i className="fa fa-linkedin"></i></a>
                               <a className="mx-2" href="https://www.instagram.com/destoofficial" target="_blank" rel="noreferrer noopener"> <i className="fa fa-instagram" ></i></a>
                               <a className="mx-2" href="https://wa.me/2349033662731" target="_blank" rel="noreferrer noopener"> <i className="fa fa-whatsapp"></i></a>
