@@ -1,10 +1,7 @@
 import React, {useState} from 'react';
 //import {Link} from 'react-router-dom';
 import profile from './images/pics/dee.jpg';
-import dis1 from './images/pics/dis1.jpg';
-import dis2 from './images/pics/dis2.jpg';
-import b1 from './images/pics/b1.jpg';
-import b2 from './images/pics/b2.jpg';
+
 
 
 function Home(){
@@ -156,32 +153,16 @@ let handleInterest = (e) =>{
                              <p className=""><span className="dots">.</span> Allow users to create post, edit, update and delete post </p>
                              <p className=""><span className="dots">.</span> Designed and integrated database using mongoDB</p>
                                
-                               <div className="card-group">
-                                  <div className="card m-1">
-                                     <img className="img-card-top" src={dis1} alt=""/>
-                                  </div>
-                                  <div className="card m-1">
-                                     <img className="img-card-top" src={dis2} alt=""/>
-                                  </div>
-                                 
-                               </div>
-                                <p className="p-2"><a className="view-site" href="https://discussionz.herokuapp.com">view site </a></p>
+                             
+                                <p className=""><a className="view-site" href="https://discussionz.herokuapp.com">view site </a></p>
 
                              <h3 className=""> <span className="sub-title  ">Basicoffer</span> - Creator</h3>
                               <p className=" "><span className="dots">.</span> Designed a cryptocurrency blog/website for cryptocurrency updates using Html5, Css3, Javascript, Bootstrap, Handlebars.JS, and Node.JS .</p>
                               <p className=" "><span className="dots">.</span> Designed and integrated admin dashboard, admin log in , log out, sign up, email verification, reset password. </p>
                               <p className=" "><span className="dots">.</span> Designed and integrated database using mongoDB</p>
                              
-                              <div className="card-group">
-                                  <div className="card m-1">
-                                     <img className="img-card-top" src={b1} alt=""/>
-                                  </div>
-                                  <div className="card m-1">
-                                     <img className="img-card-top" src={b2} alt=""/>
-                                  </div>
-                                 
-                               </div>
-                              <p className="p-2"><a className="view-site" href="https://basicoffer.herokuapp.com">view site </a></p>
+                            
+                              <p className=""><a className="view-site" href="https://basicoffer.herokuapp.com">view site </a></p>
 
                       
                        </div>
