@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 //import {Link} from 'react-router-dom';
 import profile from './images/pics/dee.jpg';
-
+import Fade from 'react-reveal/Fade';
 
 
 function Home(){
@@ -93,11 +93,12 @@ let handleInterest = (e) =>{
     return(
      
             <>
-           <div className="container-fuid header d-flex justify-content-between p-3 d-lg-none">
+           <div className="container-fuid header d-flex justify-content-between p-3 d-md-none">
                    
                    <div className="text-white">
                    <h5 className="text-white text-center">MEETME</h5>
                        {list?
+                       <Fade left>
                     <div className="sub-header">
                    <a className="" href="#profile" onClick={handleAbout}>{about? <p className="text-white">ABOUT</p>: <p className="">ABOUT</p>}</a>
                       <a className="" href="#projects" onClick={handleProject}>{project? <p className="text-white">PROJECTS</p>: <p className="">PROJECTS</p>}</a>
@@ -105,7 +106,9 @@ let handleInterest = (e) =>{
                       <a className="" href="#skills" onClick={handleSkill}>{skill? <p className="text-white">SKILLS</p>: <p className="">SKILLS</p>}</a>
                       <a className="" href="#interests" onClick={handleInterest}>{interest? <p className="text-white">INTEREST</p>: <p className="">INTERESTS</p>}</a>
                          </div> 
+                         </Fade>
                          : ' '}  
+                        
                      </div>
                     <div className="reorder">
                         {reorder?<i className="fa fa-reorder" onClick={handleReorder}></i> : ' '}
@@ -114,6 +117,23 @@ let handleInterest = (e) =>{
                     </div>
                   
                </div>
+
+       <div class="container-fluid d-none d-lg-none d-md-flex justify-content-between p-2 header">
+       <h5 className="text-white text-center p-1"><a href="/" class="meet-head text-white text-center">MEETME </a></h5>
+
+          <div className="d-flex mini">
+                   <a className="" href="#profile" onClick={handleAbout}>{about? <p className="text-white">ABOUT</p>: <p className="">ABOUT</p>}</a>
+                      <a className="" href="#projects" onClick={handleProject}>{project? <p className="text-white">PROJECTS</p>: <p className="">PROJECTS</p>}</a>
+                      <a className="" href="#education" onClick={handleEdu}>{education? <p className="text-white">EDUCATION</p>: <p className="">EDUCATION</p>}</a>
+                      <a className="" href="#skills" onClick={handleSkill}>{skill? <p className="text-white">SKILLS</p>: <p className="">SKILLS</p>}</a>
+                      <a className="" href="#interests" onClick={handleInterest}>{interest? <p className="text-white">INTEREST</p>: <p className="">INTERESTS</p>}</a>
+                         </div> 
+                        
+                     
+
+       </div>
+
+
            <div className="container-fluid">
              
                <div className="row">
@@ -126,12 +146,12 @@ let handleInterest = (e) =>{
                       <a className="" href="#interests" onClick={handleInterest}>{interest? <p className="text-white">INTEREST</p>: <p className="">INTERESTS</p>}</a>
 
                    </div>
-                   <div className="col-sm-9 big-view">
+                   <div className="col-sm-9 big-view ">
                        <div className="container profile " id="profile">
                        <h2 className="profile-title">DESTINY <span className="last-name ">IFEHOR</span></h2>
                         
                         <p className="profile-text mb-5">I'm a web developer with ability to learn and collaborate in rapidly changing environments and compositions. </p>
-                          <p className=""><i className="fa fa-phone"></i> <span className="pro-detail ">+2349033662731</span></p>
+                          <p className=""><i className="fa fa-phone "></i> <span className="pro-detail  ">+2349033662731</span></p>
                           <p className=""><i className="fa fa-envelope-open"></i> <span className="pro-detail ">destinyifeh@gmail.com</span></p>
                           <p className="mb-5"><i className="fa fa-home"></i> <span className="pro-detail ">LAGOS, NIGERIA.</span></p>
 
@@ -145,10 +165,25 @@ let handleInterest = (e) =>{
                        </div>
                        
                        <div className="container project my-5" id="projects">
-                           <h2 className="profile-title mb-5">   PROJECTS</h2>
-                           <h3 className=""> <span className="sub-title ">Discussion</span> - Creator</h3>
-                           <p className=""><span className="dots">.</span> Developed front-end user experience using React.JS, Node.JS, Bootstrap, Html5, Css3.</p>
+                           <h2 className="profile-title mb-5"> PROJECTS</h2>
+
+
+
+                           <h3 className=""> <span className="sub-title ">Phonebook</span> - Creator</h3>
+                           <p className=""><span className="dots">.</span> Developed front-end user experience using React.JS, Redux Toolkit, Node.JS, Bootstrap, Html5, Css3.</p>
                            <p className=""><span className="dots">.</span> Allow users to have a customized experience based on the mood of the user throughout the entire experience of the application.</p>
+                            <p className=""><span className="dots">.</span> Implemented user log in, sign up, log out,password reset email and contact form.</p>
+                             <p className=""><span className="dots">.</span> Allow users to create post, edit, update and delete their saved contacts </p>
+                             <p className=""><span className="dots">.</span> Designed and integrated database using mongoDB</p>
+                               
+                             
+                                <p className=""><a className="view-site" href="https://phonebukk.herokuapp.com">view site </a></p>
+ 
+
+
+
+                           <h3 className=""> <span className="sub-title ">Discussion</span> - Creator</h3>
+                           <p className=""><span className="dots">.</span> Created front-end user experience using React.JS, Node.JS, Bootstrap, Html5, Css3.</p>
                             <p className=""><span className="dots">.</span> Implemented user log in, sign up, log out, profile picture, authentication, email verification,  password reset email and contact form.</p>
                              <p className=""><span className="dots">.</span> Allow users to create post, edit, update and delete post </p>
                              <p className=""><span className="dots">.</span> Designed and integrated database using mongoDB</p>
@@ -156,6 +191,8 @@ let handleInterest = (e) =>{
                              
                                 <p className=""><a className="view-site" href="https://discussionz.herokuapp.com">view site </a></p>
 
+                            
+                            
                              <h3 className=""> <span className="sub-title  ">Basicoffer</span> - Creator</h3>
                               <p className=" "><span className="dots">.</span> Designed a cryptocurrency blog/website for cryptocurrency updates using Html5, Css3, Javascript, Bootstrap, Handlebars.JS, and Node.JS .</p>
                               <p className=" "><span className="dots">.</span> Designed and integrated admin dashboard, admin log in , log out, sign up, email verification, reset password. </p>
