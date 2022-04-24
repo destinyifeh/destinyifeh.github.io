@@ -122,10 +122,10 @@ let handleInterest = (e) =>{
        <h5 className="text-white text-center p-1"><a href="/" class="meet-head text-white text-center">MEETME </a></h5>
 
           <div className="d-flex mini">
-                   <a className="" href="#profile" onClick={handleAbout}>{about? <p className="text-white">ABOUT</p>: <p className="">ABOUT</p>}</a>
-                      <a className="" href="#projects" onClick={handleProject}>{project? <p className="text-white">PROJECTS</p>: <p className="">PROJECTS</p>}</a>
-                      <a className="" href="#education" onClick={handleEdu}>{education? <p className="text-white">EDUCATION</p>: <p className="">EDUCATION</p>}</a>
-                      <a className="" href="#skills" onClick={handleSkill}>{skill? <p className="text-white">SKILLS</p>: <p className="">SKILLS</p>}</a>
+                   <a className="" href="#profile" onClick={handleAbout}>{about? <p className="text-white">ABOUT</p>: <p className="">ABOUT |</p>}</a>
+                      <a className="" href="#projects" onClick={handleProject}>{project? <p className="text-white">PROJECTS</p>: <p className="">PROJECTS |</p>}</a>
+                      <a className="" href="#education" onClick={handleEdu}>{education? <p className="text-white">EDUCATION</p>: <p className="">EDUCATION |</p>}</a>
+                      <a className="" href="#skills" onClick={handleSkill}>{skill? <p className="text-white">SKILLS</p>: <p className="">SKILLS |</p>}</a>
                       <a className="" href="#interests" onClick={handleInterest}>{interest? <p className="text-white">INTEREST</p>: <p className="">INTERESTS</p>}</a>
                          </div> 
                         
