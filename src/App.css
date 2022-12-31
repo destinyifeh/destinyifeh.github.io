@@ -1,0 +1,187 @@
+body{
+   padding:0 !important;
+   margin:0 !important;
+   background-color: ghostwhite;
+   font-family:'roboto';
+}
+
+.small-view{
+   min-height:100vh;
+   background-color: brown;
+}
+
+.small-view a{
+   display: block;
+   text-align: center;
+   padding:5px;
+   text-decoration: none;
+   font-weight: bold;
+   color: rgb(165, 95, 95);
+   font-size: 1.2em;
+}
+
+.small-view a:active{
+      color:white;
+}
+
+
+.small-view a:hover{
+   color:white;
+}
+
+.sub-header a{
+   display: block;
+   text-align: center;
+   padding:2px;
+   text-decoration: none;
+    color: rgb(165, 95, 95);   font-size: 1.2em;
+}
+.sub-header a:hover{
+   color:white;
+
+}
+.edu-year{
+    color: brown;
+}
+
+.pro-detail{
+   font-size: 1.3em !important;
+
+}
+
+
+.fa-envelope-open, .fa-home, .fa-phone{
+   font-size: 1.3em !important;
+   color:brown;
+   
+}
+
+
+.fa-envelope-open:hover, .fa-home:hover, .fa-phone:hover{
+   color: brown;
+   background:ghostwhite !important;
+   
+}
+
+.view-site{
+   padding:10px;
+   color: brown;
+}
+.header{
+   background: brown;
+}
+.reorder i{
+     color: white;
+     font-size:1.5em;
+}
+
+.dots{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.social a{
+       text-decoration: none;
+}
+
+.profile-image{
+   height:240px;
+   width:240px;
+   border-radius:50%;
+   margin-top:10em;
+}
+.profile-title{
+   font-weight: bold;
+}
+.last-name{
+    color: brown;
+}
+
+.profile, .education, .project, .skill{
+   border-bottom: 2px solid grey ;
+   padding:10px;
+   
+}
+.img-thumbnail{
+   background-color: rgb(165, 95, 95);
+   padding:10px;
+   border: rgb(165, 95, 95);
+}
+
+.big-view{
+   margin-top:16em;
+   margin-bottom:16em;
+}
+.profile-text{
+   font-size: 1.5em;
+}
+
+  svg{
+     height:5em;
+     width:5em;
+  }
+  .skill i{
+     font-size: 3em;
+     display:block;
+     padding:10px;
+  }
+  .fa-linkedin, .fa-github, .fa-whatsapp, .fa-instagram{
+     background-color: rgb(41, 39, 39);
+     padding:13px;
+     border-radius: 50%;
+     color: white;
+     font-size: 2.5em !important;
+  }
+  
+  .fa:hover{
+            background-color: brown;
+  }
+  .dots{
+     font-weight: bold;
+  }
+  
+  .sub-title{
+     font-weight: bold;
+  }
+
+  .mini a{
+     padding:5px;
+     text-decoration: none;
+     color: rgb(165, 95, 95);   font-size: 1.2em;
+     text-align: center;
+  }
+
+  .meet-head{
+     text-decoration: none;
+  }
+  
+  @media(max-width: 575.98px){
+     
+.big-view{
+   margin-top:2em;
+
+}
+
+
+.fa-linkedin, .fa-github, .fa-whatsapp, .fa-instagram{
+   background-color: rgb(41, 39, 39);
+   padding:13px;
+   border-radius: 50%;
+   color: white;
+   font-size: 1.5em !important;
+}
+
+
+  }
+
+
+  @media screen and (max-width: 991px){
+     
+.big-view{
+   margin-top:2em;
+    
+}
+
+
+  }
+
+  
